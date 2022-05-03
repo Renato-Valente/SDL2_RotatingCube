@@ -8,8 +8,9 @@ compile it first.
 ## How to compile in Windows
 For compiling the code in your windows machine you'll have to first install Mingw and SDL2 in your machine.
 You can donwload Mingw [here](https://ufpr.dl.sourceforge.net/project/mingw/Installer/mingw-get-setup.exe)
+In the installation process, select the mingw32-gcc-g++ and the mingw32-base check boxes. Then click in the installation tab and apply the changes.
 
-After downloading MINGW, you'll have to add the bin code to the enviroment variables. To do so, On the Windows taskbar, right-click the Windows icon and select System. In the Settings window, under Related Settings, click Advanced system settings. On the Advanced tab, click Environment Variables
+After downloading MINGW, you'll have to add the bin directory to the enviroment variables. To do so, On the Windows taskbar, right-click the Windows icon and select System. In the Settings window, under Related Settings, click Advanced system settings. On the Advanced tab, click Environment Variables
 ![Image 1](./images/Variables.png)
 In the Enviroment variables menu, click on path - Edit and Add C:\MinGW\bin to the list. 
 ![Image Path](./images/EditPath.png)
@@ -24,7 +25,7 @@ After downloading it, extract the i686-w64 file to your C: directory and change 
 Done!! Now you are ready to compile and run the program in your machine
  ### Compiling the file
  open the cmd and go to the program directory. Now run the command -'mingw32-make'
- 
+
  if you receive no error messages it means the compilation was a success.
 
  ### Running the program
