@@ -18,11 +18,13 @@ Now, you can open the cmd and run 'g++ --version' to see if it works. If the g++
 
 Now you have to install SDL2 in your machine. You can download it 
 [here](https://www.libsdl.org/release/SDL2-devel-2.0.20-mingw.tar.gz)
-after downloading it, extract the i686-w64 file to your C: directory and change the name to mingw_dev_lib
 
-Done!! Now you sre ready to compile and run the program in your machine
+After downloading it, extract the i686-w64 file to your C: directory and change the name to mingw_dev_lib
+
+Done!! Now you are ready to compile and run the program in your machine
  ### Compiling the file
  open the cmd and go to the program directory. Now run the command -'mingw32-make'
+ 
  if you receive no error messages it means the compilation was a success.
 
  ### Running the program
