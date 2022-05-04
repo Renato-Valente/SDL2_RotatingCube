@@ -3,3 +3,6 @@ build:
 
  run:
 	./main
+
+build-linux:
+	g++ *.cpp -lSDL2 -o main
