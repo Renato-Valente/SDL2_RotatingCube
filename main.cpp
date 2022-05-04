@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <iostream>
 #include <stdint.h>
-#include <stdbool.h>
-#include <SDL.h>
 #include "display.hpp"
 #include "vector.hpp"
 #include "mesh.hpp"
@@ -99,9 +97,9 @@ void render(){
         //drawRect(trinangles_to_render[i].points[2].x,trinangles_to_render[i].points[2].y,3,3,0xFFFFFF00);
 
         trinagle_t triangle = trinangles_to_render[i];
-        drawLine(triangle.points[0].x,triangle.points[0].y,triangle.points[1].x,triangle.points[1].y,0xFF00FF00);
-        drawLine(triangle.points[1].x,triangle.points[1].y,triangle.points[2].x,triangle.points[2].y,0xFF00FF00);
-        drawLine(triangle.points[2].x,triangle.points[2].y,triangle.points[0].x,triangle.points[0].y,0xFF00FF00);
+        drawLine(triangle.points[0].x,triangle.points[0].y,triangle.points[1].x,triangle.points[1].y,0xFFF542C2);
+        drawLine(triangle.points[1].x,triangle.points[1].y,triangle.points[2].x,triangle.points[2].y,0xFFF542C2);
+        drawLine(triangle.points[2].x,triangle.points[2].y,triangle.points[0].x,triangle.points[0].y,0xFFF542C2);
     }
 
     SDL_RenderPresent(renderer);

@@ -1,7 +1,12 @@
-#ifndef DISPLAY.HPP
-#define DISPLAY.HPP
+#ifndef DISPLAY_HPP
+#define DISPLAY_HPP
 
+#ifdef _WIN32
 #include <SDL.h>
+#else
+#include <SDL2/SDL.h>
+#endif
+
 #include "vector.hpp"
 #include <math.h>
 
